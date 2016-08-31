@@ -1,0 +1,25 @@
+General design:
+	
+
+Design:
+
+
+Requirements:
+	- there must only be one shooter
+		- or else the ball will only be thrown back to a single shooter
+
+Specifications:
+
+
+Current model:
+	- microcontroller is connected to a servo motor 
+	- servo motor swivels hardware device that hurls the ball back to the shooter
+	- microcontroller is constantly swiveling to track users position
+	- microcontroller receives bluetooth packet from *central hub* micrcontroller
+		- packet contains user coordinates
+	- microcontroller swivels throw-back devise in direction of user
+		- on other words, the throw-back device is constantly rotating towards the shooters position
+
+
+
+

@@ -1,0 +1,10 @@
+Questions:
+	- in what metric would they like to be told their position?
+		- ex. x-feet from left side of court & y-feet from baseline
+	- how important is it for them to know the direction of the goal?
+		- explain our idea of "wearing glasses that tell the user the 
+		  direction of the goal. Thoughts?
+		- the reason I ask is because this is going to be the most
+		  challenging to implement, but if it is worthy, we will put priority
+		  on it
+	

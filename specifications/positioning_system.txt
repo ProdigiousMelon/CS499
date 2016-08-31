@@ -1,0 +1,37 @@
+General requirement: 
+	- mobile devices connect to a *central hub* microcontroller 
+	- *central hub* microcontroller is connected to all other micrcontrollers
+		- other microcontrollers are collecting data
+
+Design:
+	- sensors detect user position on the court
+	- microcontroller sends coordinates to mobile device
+	- mobile device tells user through earbud where they are on the court
+		- type of coordinates up for debate? In other words, should the app
+		  tell the user x-feet from the left side and y-feet from the baseline
+
+Requirements:
+
+	- must support multiple players
+	- must calculate xy coordinates of the shooter on the court
+	- must send position to mobile device
+	- mobile device must tell user coordinates through audio
+
+Current model:
+
+	- three *distance sensors*
+		- each sensor connects to shooter via bluetooth 
+			- user is wearing a bluetooth sensor
+		- each sensor is constantly emitting bluetooth packets
+		- user's bluetooth sensor receives signal from sensor-x
+		- user's bluetooth sends signal back to sensor-x
+		- sensor-x calculates distance
+		- sensor-x sends distance to central hub
+	- central hub receives packets from all three distance sensors 
+		- must identify packets that correspond to each user
+		- in other word, each user has an ID
+	- central hub triangulates position
+	- central hub sends coordinates to mobile device via bluetooth
+	- mobile device (of user-x) receives bluetooth packet
+	- mobile device conveys coordinates via audio
+		- user is wearing at least one earbud 
