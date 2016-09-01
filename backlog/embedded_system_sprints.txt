@@ -1,0 +1,9 @@
+Sprint #1: positioning system
+	Stories:
+		- find microcontrollers
+			- arduino microcontrollers thats support Bluetooth
+			- central hub (Raspberry Pi?)
+		- find microcontroller that the user will wear
+		- set up Bluetooth connection between distance microcontroller and
+		  users microcontroller
+		- compute distance using time to cycle
