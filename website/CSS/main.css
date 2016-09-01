@@ -395,6 +395,13 @@ li {
     border-left: 15px solid black;
 }
 
+.feed_name {
+    display: inline-block;
+}
+
+.home_icon {
+    display: inline-block;
+}
 
 /*
   ========================================
