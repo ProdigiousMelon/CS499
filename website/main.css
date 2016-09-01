@@ -278,20 +278,28 @@ p a {
     border-bottom: 4px solid orange;
 }
 
-.byron-link {
+.bios-link {
     border-bottom: 4px solid yellow;
 }
 
-.kendall-link {
+.documentation-link {
     border-bottom: 4px solid green;
 }
 
-.matt-link {
+.byron-link {
     border-bottom: 4px solid blue;
 }
 
-.jared-link {
+.kendall-link {
+    border-bottom: 4px solid violet;
+}
+
+.matt-link {
     border-bottom: 4px solid purple;
+}
+
+.jared-link {
+    border-bottom: 4px solid grey;
 }
 
 .thomas-link {
@@ -361,6 +369,30 @@ li {
 
 .logs-color {
    border-left: 15px solid yellow;
+}
+
+.log_feed {
+    padding-left: 40px;
+}
+
+.color_byron {
+    border-left: 15px solid blue;
+}
+
+.color_kendall {
+    border-left: 15px solid violet;
+}
+
+.color_matt {
+    border-left: 15px solid purple;
+}
+
+.color_jared {
+    border-left: 15px solid grey;
+}
+
+.color_thomas {
+    border-left: 15px solid black;
 }
 
 
