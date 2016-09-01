@@ -275,8 +275,29 @@ p a {
 }
 
 .log-link {
-  border-bottom: 4px solid orange;
+    border-bottom: 4px solid orange;
 }
+
+.byron-link {
+    border-bottom: 4px solid yellow;
+}
+
+.kendall-link {
+    border-bottom: 4px solid green;
+}
+
+.matt-link {
+    border-bottom: 4px solid blue;
+}
+
+.jared-link {
+    border-bottom: 4px solid purple;
+}
+
+.thomas-link {
+    border-bottom: 4px solid black;
+}
+
 
 .links-right {
   float: right;
