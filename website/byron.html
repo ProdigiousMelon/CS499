@@ -23,6 +23,24 @@
       <a href="/website/thomas.html">Thomas Underwood</a>
     </div>
 
+    <div id="log_feed">
+      <h3>Log 1</h3>
+      <p>
+		<p>Speaking with Dr. Lump I found immediately that there are many options that we can explore to meet the design specifications. </p>
+		<p>There are three main areas of concern that need to be addressed in the design of our system. First, is the tracking of the player, next is the tracking of the movement of the ball, and lastly is signal processing unit. </p>
+		<p>For the tracking of the player there were a myriad of solutions. What immediately jumped to mind was indoor GPS. A quick search at Spark Fun or ADA Fruit turned up some results of packages ranging from $10 to over $100 that would be able to report positioning. The challenge with indoor GPS is that it’s tough to get heading and direction. Still this may be a cheap way of getting the XYZ coordinates of the players. </p>
+		<p> Another option is, Computer Vision motion tracking. Computer Vision analyzes a series of images and report back motion and positioning information. There is an interesting article about Computer Vision motion tracking: </p> </br>
+		 http://www.pyimagesearch.com/2015/05/25/basic-motion-detection-and-tracking-with-python-and-opencv/
+		</br>
+		<p>We could probably get away with just two cameras if we were to go this route but it really all depends on what we decide for the other parts of our system. Synergy is key to reduce cost and equipment. </p>
+		<p>For the tracking of the ball, Computer Vision might be the best option, if we are trying to use a standard basketball. To make the system more accessible, it would be best to use as many standard parts as possible. Because of the nature of the game and the rapid movement of the ball, affixing a device to the ball may prove to be cumbersome. With Computer Vision, and a brightly colored ball, we would be able to track its movement in real time. This may be subject to change as we settle on the other parts of the system. </p>
+		<p>Lastly is the signal processing unit or module that will be used to not only collect the data from the independent tracking devices, but also broadcast the information in such a way to be utilized by AndroidOS and iOS applications on each player’s phone. A nine axis sensor was suggested to communicate between a Computer/Arduino/Programmable System-on-Chip (PSoC)/Raspberry Pi/ intel atom). If we want to do app development for this system, my recommendation is either the Raspberry pi or an Arduino. This is because of the pre-existing support. </p>
+		<p>More information coming this weekend, where hopefully we can solidify the specifications for the system. </p>
 
+
+      </p>
+      </br></br>
+    </div>
+	
   </body>
 </html>
