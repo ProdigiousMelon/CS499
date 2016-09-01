@@ -28,3 +28,15 @@ Microcontrollers:
 			- see throwback_system.txt
 		- *glasses micrcontroller*
 			- senses direction of the goal
+			- this will be very challenging to implement, so I am 
+			  making it the last thing we should focus on. I have, 
+			  however, included a question to Jared's cousin's
+			  asking them how important something like this is
+
+
+iOS app:
+	- ...
+
+
+Android app:
+	- ...
