@@ -1,0 +1,42 @@
+Big picture design:
+	- user is receiving information through their mobile device
+	- the mobile device tells the user information through audio -- we picture
+	  the user wearing a single earbud
+	- mobile device is connect to a *central hub* microcontroller
+	- *center hub* microcontroller is receiving/sending data from/to 
+	  all other microcontrollers
+		- other microcontrollers are collecting data useful to game
+
+Note: currently, we envision Bluetooth being the form of communication between devices
+
+Microcontrollers:
+	- Raspberry Pi as central hub
+	- all other microcontrollers are arduino's
+		- three *distance microcontrollers* 
+			- set up in a triangle to compute user coordinates
+			- see positioning_system.txt
+		- user micrcontroller
+			- will receive/send Bluetooth packets from/to distance micrcontrollers ^^
+		- backborad microcontroller
+			- collecting data of where user shot landed
+			- see backboard_system.txt
+		- *throw-back* microcontroller
+			- controls a servo motor connected to a hardware devise that
+				throws the ball back to the shooter
+			- servo motor is constantly swiveling to track shooter
+			- this is only necessary when a single user is shooting
+			- see throwback_system.txt
+		- *glasses micrcontroller*
+			- senses direction of the goal
+			- this will be very challenging to implement, so I am 
+			  making it the last thing we should focus on. I have, 
+			  however, included a question to Jared's cousin's
+			  asking them how important something like this is
+
+
+iOS app:
+	- ...
+
+
+Android app:
+	- ...

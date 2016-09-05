@@ -1,0 +1,6 @@
+
+
+Requirements:
+	- must know who took the shot
+
+

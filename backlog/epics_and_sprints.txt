@@ -1,0 +1,15 @@
+Epic: Embedded systems
+	Sprints:
+		1. positioning system
+		2. backboard system
+		3. throwback system
+		4. direction system
+
+Epic: iOS application
+	Sprints:
+		1.
+
+
+Epic: Android application
+	Sprints:
+		1. 
