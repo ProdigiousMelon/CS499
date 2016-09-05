@@ -367,7 +367,15 @@ li {
   ========================================
 */
 
-.logs-color {
+.color_milestone {
+   border-left: 15px solid orange;
+}
+
+.color_documentation {
+   border-left: 15px solid green;
+}
+
+.color_bios {
    border-left: 15px solid yellow;
 }
 
