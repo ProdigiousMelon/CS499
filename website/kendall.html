@@ -79,6 +79,88 @@
     </section>
     <!-- Individual Log Post [COPY ME!]-->
 
+
+    <!-- Individual Log Post [COPY ME!]-->
+    <section class="row-alt portrait-border color_kendall">
+      <section class="container shadow">
+
+          <!-- Put new log here! Just copy and paste the whole section to create a new log! -->
+         <p><b>Kendall Weihe</b><br>
+         Log 3<br>
+         Tuesday Sept. 7th 2016<br></p>
+
+         <p>Byron, Jared, and I met Monday evening to discuss what needs to be done this week. We are planning on doing a weekly meeting,
+         just like a weekly sprint meeting. This weeks was really more of a sprint planning meeting.</p>
+
+         <p>This week we are setting a deadline to get hardware ordered (or at least sent to Mr. Williams) by this Friday.
+         Byron has proposed a prototype system. The system consists of 4 microcontrollers that act as anchors, and a RSSI frequency emitter.
+         Essentially the user will have a sensor that emits a pulse, the anchors pick up the signal, they all communicate with a Raspberry Pi, and the
+         Raspberry Pi computes the coordinates. I like the idea because it's simple. It may or may not be used as the end product, but it is worth trying.
+         You know, start simple and build one step at a time.</p>
+
+         <p>My only concern is that is won't have good enough precision. Byron is going to email Dr. Lump and get his take on it.</p>
+
+         <p>The frequency emitter can be found <a href="https://www.sparkfun.com/products/10524">here</a></p>
+
+         <p>All in total, this order shouldn't cost more than $40-$50.</p>
+
+         <p>We already have a Raspberry Pi. We will need to purchase 4 Arduino microcontrollers, the frequency emitter,
+         maybe a breadboard, and some other small things such as wires and capacitors -- Byron is building the full list.</p>
+
+         <p>As for the rest of the team... Thomas did a really good job designing the website this past week. We have a use cases document due
+         this Friday that we are all going to work on together. We also have Resume's due Tomorrow (Wed. Sept. 7th). Matt and Thomas have
+         agreed to take over the Android development.</p>
+
+      </section>
+    </section>
+
+    <!-- Individual Log Post [COPY ME!]-->
+    <section class="row-alt portrait-border color_kendall">
+      <section class="container shadow">
+
+          <!-- Put new log here! Just copy and paste the whole section to create a new log! -->
+          <p><b>Kendall Weihe</b><br>
+          Log 4<br>
+          Monday Sept. 12th 2016<br></p>
+
+          <p>We had our weekly sprint meeting Sunday night. Matt can’t make the team meetings unfortunately. This Sunday we talked about the upcoming document due next Monday (Sept. 19th). We also talked about what it’s going to take to get that completed, and we talked about the positioning system hardware. Lastly, we discussed what the mobile application feature set will be.
+            </p>
+          <p>The document due next Monday is the Project Plan, and there is a ton to it. We are pretty much planning out the entire project. Although, we have to understand that nothing in this document will be concrete — we will have to adapt to situations as we go. Jared, our documentation guy, is helping delegate who needs to do what. Jared and Matt are going to cover things like introduction, and conclusion. The rest of the document is mainly functional requirements, so Byron, Thomas, and I will be working on that. The main thing here is creating user stories. So I’m going to work on that tonight and hopefully get them all completed. A user story consists of a title, a description, a priority, and a point ranking. Typically, the way I like to do user stories, is to not have any stories over 4 points. However, since I have no experience in iOS development it is difficult for me to estimate how long it will take to accomplish something. Therefore, I’m going to estimate some stories over 4 points. The number one priority will be to do a crash-course iOS tutorial. We hope to have everyone complete their parts by Sunday so that we can clean it all up at our weekly sprint meeting.
+            </p>
+          <p>We believe we have all the hardware figured out for the positioning system. I’m going to copy and paste the description I sent to Mr. Williams:
+            </p>
+          <p>There are 5 Arduino microcontrollers (Arduino Uno). Each microcontroller has a radio module. The radio module can send and receive radio signals with 300 different channels (or something like that). There will be 4 microcontrollers set up around the court perimeter, and these are the "anchors" (as an end product we will want to triangulate, but for a prototype we want to keep it simple -- a square is much easier to compute position). The user has the 5th microcontroller. The users radio module emits a pulse, and the anchors receive the pulse. All the microcontrollers have clocks, so depending on the time it takes to receive the signal we can compute a distance perpendicular to each anchor (radio signals travel at the speed of light d = r*t). Subsequently the 4 anchors will communicate with a raspberry Pi (a small UNIX microcontroller -- we already have some of these), and the raspberry pi will compute position. The raspberry pi will serve as the "central hub" for all embedded systems.
+            </p>
+          <p>There are also other various parts -- batteries, power supplies, and voltage droppers that will be needed.
+            </p>
+          <p>These are all the features we are thinking about for the mobile application.
+            </p>
+
+          <ul>
+            <li>User account authentication</li>
+            <li>Cloud based database</li>
+              <ul>
+                <li>Statistics</li>
+                <li>User information</li>
+              </ul>
+            <li>Games</li>
+              <ul>
+                <li>Horse</li>
+                <li>First to n points</li>
+                <li>How many shots can be made in n time</li>
+              </ul>
+          </ul>
+
+          <br>
+          <p>One thing that we haven’t figured out is how to determine who’s shot when in given there is more than 1 person playing. Since there is so much to this project, we are going to plan on having a prototype for the end result. That prototype will consist of a positioning system, a backboard speaker (for direction), and a system to tell the user where the shot landed. All of the above will be for a single user.
+            </p>
+          <p>Oh, we also need to have Mr. Williams sign an intellectual property agreement. I couldn’t find it on the web page, so I emailed Dr. Hayes. She’s in China so it may be a couple of days until she responds to me.
+            </p>
+
+      </section>
+    </section>
+    <!-- Individual Log Post [COPY ME!]-->
+
     <!-- Individual Log Post [COPY ME!]-->
     <section class="row-alt portrait-border color_kendall">
       <section class="container shadow">
