@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>CS499</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="./CSS/main.css">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300,400">
   </head>
 
@@ -14,7 +14,9 @@
         <a href="https://github.com/ProdigiousMelon/ProdigiousMelon.github.io">CS499 - Basketball Vision</a>
       </h1>
 
-      <small class="team">Byron Giles, Kendall Weihe, Matt Resch, Jared Becker, Thomas Underwood</small>
+      <a href="./../index.html"><img class="home_icon" src="./images/home_icon.png" alt="Home" style="width:36px;height:36px;"></a>
+
+      <h2 class="feed_name">Byron Giles</h2>
     </header>
     <!-- END Header -->
 
@@ -38,6 +40,26 @@
             <p>Lastly is the signal processing unit or module that will be used to not only collect the data from the independent tracking devices, but also broadcast the information in such a way to be utilized by AndroidOS and iOS applications on each player’s phone. A nine axis sensor was suggested to communicate between a Computer/Arduino/Programmable System-on-Chip (PSoC)/Raspberry Pi/ intel atom). If we want to do app development for this system, my recommendation is either the Raspberry pi or an Arduino. This is because of the pre-existing support. </p>
             <p>More information coming this weekend, where hopefully we can solidify the specifications for the system. </p>
         </section>
+		</br>
+		<section class="container shadow">
+           <p><b>Byron Giles</b><br>
+            Log 2<br>
+            Wednesday, Sunday 11th 2016<br></p>
+			<p>in the interim since the last blog entry, I have met with Dr.Lump two more times. Once on Monday, September 5th, and again the following Wednesday, September 7th. Dr. Lump's assistance was invaluable, once the project scope solidified. I also plan on meeting him tomorrow Monday Sept 12th</p>
+			
+			<p>As a team we have decided to pursue position tracking through an RSSI or Receive Signal Strength Indicator. The RFM transceiver chosen was Spark Fun RFM69 Breakout (915MHz). This particular transceiver runs in the unlicensed ISM, or Industry, Science, and Medical band. The position tracking system had to meet several constraints to be applicable in our project. First, was accuracy. This transceiver is capable of broadcasting up to 50 meters through walls, also with a max 300kbps bit rate, we can update signal strength frequently. Second, it had to be able to report back to PC or microcontroller. For this the Arduino UNO was chosen to process the RF signal via serial connection. The Arduino can then in turn broadcast that data via serial COM port where we can then handle the data</p>
+			
+			<p>For the Arduino and the transceiver to communicate with one another, a logic level converter is needed. The Arduino Uno operates at 5V and it needs to be stepped down to the operating range of the transceiver</p>
+			
+			<p>In order to change this signal strength information into position information, we will have 4 beacons broadcasting on each side of the court. The player will also be carrying a transceiver. By taking a mean average of the relative signal strength of the player to the four beacons, a system of position can be established. </p>
+			
+			
+			<p>each transceiver unit contains the following: A radio module, an Arduino Uno, a rechargeable Lithium polymer battery, Logic Level converter. Additional equipment such as breadboards and wires are included on the spread sheet.</p>
+			
+			<p>Next design concern is goal interaction.</p>
+
+
+            </section>
     </section>
 
     <!-- Individual Log Post [COPY ME!]-->
