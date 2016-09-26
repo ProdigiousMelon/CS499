@@ -81,6 +81,7 @@ body {
   padding-left: 30px;
   padding-right: 30px;
   padding-bottom: 20px;
+  padding-top: 20px;
 }
 .grid,
 .col-1-3,
@@ -302,7 +303,6 @@ p a {
     border-bottom: 4px solid black;
 }
 
-
 .links-right {
   display: inline-block;
   margin-left: 80px;
@@ -406,6 +406,105 @@ li {
 
 .home_icon {
     display: inline-block;
+}
+
+/*
+  ========================================
+  Bios
+  ========================================
+*/
+.about_color {
+  border-left: 15px solid red;
+}
+
+.skills_color {
+  border-left: 15px solid orange;
+}
+
+.resources_color {
+  border-left: 15px solid yellow;
+}
+
+.contact_color {
+  border-left: 15px solid green;
+}
+
+.bio_header {
+  font-size: 500%;
+  font-weight: bolder;
+}
+
+.bio_container {
+  margin-top: 40px;
+}
+
+.bio_title {
+  font-size: 200%;
+  font-weight: bolder;
+}
+
+.bio_photo {
+  height: 500px;
+  width: 300px;
+  margin-top: 15px;
+  margin-left: 25px;
+  display: inline-block;
+  border-radius: 25%;
+}
+
+.bio_about {
+  height: auto;
+  width: 350px;
+  margin-left: 150px;
+  display: inline-block;
+}
+
+.about {
+  padding: 15px;
+  margin-bottom: 15px;
+  line-height: 2;
+}
+
+.skills_table {
+  overflow-x:auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+.resources {
+  padding: 30px;
+}
+
+.bio_professional {
+
+}
+
+.bio_resume {
+
+}
+
+.bio_github {
+
+}
+
+.bio_tech_writing {
+
+}
+
+.contact_container {
+  margin: 0 auto;
+  padding: 20px;
+  width: 400px;
 }
 
 /*
