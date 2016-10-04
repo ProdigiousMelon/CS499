@@ -263,7 +263,7 @@ p a {
 }
 
 .links-left li {
-  padding-top: 120px;
+  padding-top: 80px;
   list-style: none;
 }
 
@@ -281,6 +281,10 @@ p a {
 
 .documentation-link {
     border-bottom: 4px solid green;
+}
+
+.video-link {
+    border-bottom: 4px solid #AA3939;
 }
 
 .byron-link {
@@ -370,6 +374,10 @@ li {
 
 .color_documentation {
    border-left: 15px solid green;
+}
+
+.color_video {
+   border-left: 15px solid #AA3939;
 }
 
 .color_bios {
