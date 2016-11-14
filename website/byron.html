@@ -39,7 +39,7 @@
             http://www.pyimagesearch.com/2015/05/25/basic-motion-detection-and-tracking-with-python-and-opencv/
             </br>
             <p>For the tracking of the ball, Computer Vision might be the best option, if we are trying to use a standard basketball. To make the system more accessible, it would be best to use as many standard parts as possible. Because of the nature of the game and the rapid movement of the ball, affixing a device to the ball may prove to be cumbersome. With Computer Vision, and a brightly colored ball, we would be able to track its movement in real time. This may be subject to change as we settle on the other parts of the system. </p>
-            <p>Lastly is the signal processing unit or module that will be used to not only collect the data from the independent tracking devices, but also broadcast the information in such a way to be utilized by AndroidOS and iOS applications on each player’s phone. A nine axis sensor was suggested to communicate between a Computer/Arduino/Programmable System-on-Chip (PSoC)/Raspberry Pi/ intel atom). If we want to do app development for this system, my recommendation is either the Raspberry pi or an Arduino. This is because of the pre-existing support. </p>
+            <p>Lastly is the signal processing unit or module that will be used to not only collect the data from the independent tracking devices, but also broadcast the information in such a way to be utilized by AndroidOS and iOS applications on each player’s phone. A nine axis sensor was suggested to communicate between a Computer/Arduino/Programmable System-on-Chip (PSoC)/Raspberry Pi/ Intel atom). If we want to do app development for this system, my recommendation is either the Raspberry pi or an Arduino. This is because of the pre-existing support. </p>
             <p>More information coming this weekend, where hopefully we can solidify the specifications for the system. </p>
         </section>
 		</br>
@@ -220,7 +220,7 @@
         <section class="container shadow">
           <p><b>Byron Giles</b><br>
            Log 7<br>
-           Saturday, September 30th 2016<br></p>
+           Saturday, October 1st 2016<br></p>
      <p>Continued on architecture assignment. Designed more Test cases for the Hardware and added images to the high level design.</p>
      <p>Prepared talking points for presentation on Monday.</p>
 
@@ -233,7 +233,7 @@
           <p><b>Byron Giles</b><br>
            Log 8<br>
            Monday, October 10th 2016<br></p>
-     <p>Met with Kendall to pick up equipment for the project. Because Thomas wanted to test the bluetooth functionality, I only recieved the material for three nodes</p>
+     <p>Met with Kendall to pick up equipment for the project. Because Thomas wanted to test the Bluetooth functionality, I only received the material for three nodes</p>
 	 <p>We then took some time to discuss a plan of action for the next sprint. Decided that it was important to focus on wiring and addressing one node first.</p>
 	 <p>Also prepared a part breakdown description in detail to the client and expressed the need to get parts in on time.</p>
 
@@ -247,27 +247,9 @@
            Log 9<br>
            Sunday, October 16th 2016<br></p>
 	<p>Weekly team sprint meeting. We discussed the goals for the up coming week</p>
-	<p>I plan on securing a proper workspacce to start wiring the nodes. Discussed plans to pick up soldering equipment from Thomas</p>
+	<p>I plan on securing a proper workspace to start wiring the nodes. Discussed plans to pick up soldering equipment from Thomas</p>
 	<p>revisited the architectural design of how the nodes are supposed to interact with each other, decided not to use the raspberry pi.</p>
 
-<<<<<<< HEAD
-     <p>Time spent: 3 hour</p>
-        </section>
-     </section>
-
-     <section class="row-alt portrait-border color_byron">
-        <section class="container shadow">
-          <p><b>Byron Giles</b><br>
-           Log 7<br>
-           Saturday, October 30th 2016<br></p>
-     <p>Continued on architecture assignment. Designed more Test cases for the Hardware and added images to the high level design.</p>
-     <p>Prepared talking points for presentation on Monday.</p>
-
-     <p>Time spent: 3 hour</p>
-        </section>
-     </section>
-
-=======
      <p>Time spent: 1.5 hour</p>
         </section>
      </section>
@@ -280,7 +262,6 @@
 	<p>Found a spot in the digital logic lab in FPAT to work, has bench equipment and soldering iron, but no solder. I had to reclaim the solder of some of this chips that I had in my kit.</p>
 	<p>Wired up the first node and tested addressing it. The components wired in this case were: Arduino/Logic Stepper/RFM</p>
 	<p>Found a guide for proper Antenna length. An antenna should be 1/4th of the wavelength of that is being sampled(Nyquist). For our RFM module at 915MHz that is roughly 78mm</p>
->>>>>>> Stashed changes
 
      <p>Time spent: 3 hours</p>
         </section>
@@ -293,7 +274,7 @@
            Sunday, October 23rd 2016<br></p>
 	<p>No sprint meeting this week. Spent time wiring node#2 in the embedded lab in FPAT. Successfully soldered headers and antenna on the RFM Breakout chip, but ran out of headers</p>
 	<p>For the record, the RFM has 8 pins that require soldered headers and the logic stepper requires 12. Going "borrow" some from the office and continue later</p>
-	<p>Tested communication with node#1, by accessing the temperature sensor and getting it to report to COM port. The baudrate for COM communication through USB is 9600<p>
+	<p>Tested communication with node#1, by accessing the temperature sensor and getting it to report to COM port. The baud rate for COM communication through USB is 9600<p>
 	<p>Temperature is reporting back, but there seems to be some communication delay</p>
 	
      <p>Time spent: 2 hours</p>
@@ -305,7 +286,7 @@
           <p><b>Byron Giles</b><br>
            Log 12<br>
            Sunday, October 30th 2016<br></p>
-	<p>Becuase we had a stand-up on friday, no sprint meeting this week. Spent time looking through the Low power lab libraries for the RFM reciever to determine a way to return status.</p>
+	<p>Becuase we had a stand-up on Friday, no sprint meeting this week. Spent time looking through the Low power lab libraries for the RFM receiver to determine a way to return status.</p>
 	<p>Began working on progress videos for soldering and wiring process</p>
     <p>Time spent: 2.5 hours</p>
         </section>
@@ -316,9 +297,9 @@
           <p><b>Byron Giles</b><br>
            Log 13<br>
            Tuesday, November 1st 2016<br></p>
-	<p>Working at the office, I aquried the requisite number of headers for the remaining devices, soldered the remaining pieces</p>
-	<p>Working in the digital logic lab, Assembled the remaining components of node#2 and node#3. I have the extra RFM breakout chips and logic steppers but the 4th Arduino is with Thomas for bluetooth testing</p>
-	<p>Attempted to address multiple nodes and send packages to one another to no success. Messages appear to be sending, but there is no acknowledgement that they are being recieved. Will look into this further</p>
+	<p>Working at the office, I acquired the requisite number of headers for the remaining devices, soldered the remaining pieces</p>
+	<p>Working in the digital logic lab, Assembled the remaining components of node#2 and node#3. I have the extra RFM breakout chips and logic steppers but the 4th Arduino is with Thomas for Bluetooth testing</p>
+	<p>Attempted to address multiple nodes and send packages to one another to no success. Messages appear to be sending, but there is no acknowledgement that they are being received. Will look into this further</p>
 	<p></p>
     <p>Time spent: 4 hours</p>
         </section>
@@ -330,8 +311,8 @@
            Log 14<br>
            Sunday, November 6th 2016<br></p>
 	<p>Working at the embedded lab(FPAT), continued to troubleshoot communication issues with bench equipment.</p>
-	<p>Using the osciliscope I found that the pins that are supposed to be set as high were indeed set as high, and pins that were supposed to be low were low. The rails where at the appropriate voltages for the logic stepper and the RFM break out. Node#3's RFM chip wasn't conneected to ground and power. However this did not remedy the problem. Checking the Tx or transmit pin on the arduino, I could see that my messages were being encoded. Checking the interrupt pin showed that the RFM was indeed waking up when passed a command. However, hooking the osciliscope to the clock on the RFM, we found that the clock would wake up, and and get stuck in a loop after sending a message. Located the bit of code that causes this issue. When sending a packet with acknowledgement, it will continue to retry if it gets no response. The response is essential to the function of the system, the response is what ques the module to report to console signal strength and what node it's addressing. Siganl strength is reported in negative db values from -1 to about -25. The smaller the db value, the closer that you are to the node.</p>
-	<p>Sprint meeting was also held in the lab. Demoed progress to the group, and explained wiring choices. Informed group of where I was stuck, the suggestion of using a spectrum analyzer to see if the radio modules were even broadcasting anything. Will consult Dr.Lump tomorrow on how I should procede</p>
+	<p>Using the oscilloscope I found that the pins that are supposed to be set as high were indeed set as high, and pins that were supposed to be low were low. The rails where at the appropriate voltages for the logic stepper and the RFM break out. Node#3's RFM chip wasn't connected to ground and power. However this did not remedy the problem. Checking the TX or transmit pin on the Arduino, I could see that my messages were being encoded. Checking the interrupt pin showed that the RFM was indeed waking up when passed a command. However, hooking the oscilloscope to the clock on the RFM, we found that the clock would wake up, and get stuck in a loop after sending a message. Located the bit of code that causes this issue. When sending a packet with acknowledgement, it will continue to retry if it gets no response. The response is essential to the function of the system, the response is what ques the module to report to console signal strength and what node it's addressing. Signal strength is reported in negative db values from -1 to about -25. The smaller the db value, the closer that you are to the node. </p>
+	<p>Sprint meeting was also held in the lab. Demoed progress to the group, and explained wiring choices. Informed group of where I was stuck, the suggestion of using a spectrum analyzer to see if the radio modules were even broadcasting anything. Will consult Dr.Lump tomorrow on how I should proceed</p>
     <p>Time spent: 6 hours</p>
         </section>
     </section>
@@ -356,7 +337,6 @@
         </section>
     </section>	
 	
->>>>>>> byron_feed
     <!-- Footer -->
     <footer class="primary-footer container group">
 
